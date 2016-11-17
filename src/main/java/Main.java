@@ -6,6 +6,8 @@ public class Main {
 
     private static final String REGISTRY_PATH = "SOFTWARE\\Policies\\Microsoft\\Windows\\Personalization";
 
+
+    // java -jar SetLockScreen-1.0.jar "c:\tmp.jpg"
     public static void main(String... args) {
         String newLocation;
         System.out.println("LockScreenImage = " + lockScreenImageLocation());
